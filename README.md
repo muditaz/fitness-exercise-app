@@ -17,4 +17,7 @@ Fitness-Exercise-App
 - Pagination edge cases handled.
 - Result not found case handled for search.
 - Spinner added.
+- Detail component design with proper spinners.
+- Exercise videos component design.
+- Similar target muscles exercise and similar equipment exercise component design.
 rapid-api-failure page, API calls needs to be optimized, on clicking enter should submit, No results found component.

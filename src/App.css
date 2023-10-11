@@ -23,7 +23,6 @@ body {
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
-  bottom: 320px;
   right: 80px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
@@ -41,6 +40,10 @@ body {
   display: flex;
 }
 
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
 
 .hero-banner-img {
   position: absolute;
@@ -81,8 +84,22 @@ body {
   border: 1px solid #FF2625 !important;
 }
 
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
 
 @media screen and (max-width:1200px) {
+
+  .detail-image {
+    width: 300px;
+    height: 300px;
+  }
 
   .swipe-to-see-more {
     position: static !important;
@@ -94,6 +111,11 @@ body {
 
   .exercise-card {
     width: 320px;
+  }
+
+  .exercise-video {
+    width: 320px;
+    height: 300px;
   }
 
 }
